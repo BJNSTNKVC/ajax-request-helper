@@ -1,0 +1,25 @@
+{
+  "name": "@bjnstnkvc/ajax",
+  "version": "1.0.1",
+  "description": "JavaScipt AJAX request helper.",
+  "main": "./lib/AJAX.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJNSTNKVC/ajax-request-helper.git"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "Bojan Stankovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BJNSTNKVC/ajax-request-helper/issues"
+  },
+  "homepage": "https://github.com/BJNSTNKVC/ajax-request-helper#readme"
+}
