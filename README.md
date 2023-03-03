@@ -74,6 +74,25 @@ AJAX.get({
 })
 ````
 
+#### params
+An object used to parse and stringify URL parameters:
+
+```js
+AJAX.get({
+    url: 'authors/{author}/posts/{post}',
+    params: {
+        author: 'bjnstnkvc',
+        post: 2
+    }
+})
+````
+
+Example above would generate the following URL:
+
+```
+https://www.example.com/authors/bjnstnkvc/posts/2
+```
+
 #### query
 An object used to parse and stringify URL query strings:
 
@@ -224,7 +243,7 @@ AJAX.post({
 
 By doing so, every subsequent AJAX instance would use the config set above.
 
-In case you need to overwrite previously set default config value, you simply need to overwrite them:
+In case you need to overwrite previously set default config value, you simply need to set them :
 
 ```js
 AJAX.patch({

@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "JavaScript AJAX request helper.",
   "main": "./lib/AJAX.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
