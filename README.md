@@ -8,13 +8,6 @@ You can install the package via npm:
 
     npm install @bjnstnkvc/ajax
 
-or import it via CDN:
-
-```html
-
-<script src="https://cdn.jsdelivr.net/npm/@bjnstnkvc/ajax/lib/AJAX.min.js"></script>
-```
-
 ## Usage
 
 Once the package has been installed, you can import it
