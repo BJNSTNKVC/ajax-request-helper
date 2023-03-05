@@ -115,7 +115,7 @@ Sometimes you need to pass a query string as an array, in order to do so, use th
 
 ```js
 AJAX.get({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     query: {
         tag: ['html', 'css'],
         page: 2,
