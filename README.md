@@ -79,7 +79,7 @@ An object used to parse and stringify URL parameters:
 
 ```js
 AJAX.get({
-    url: 'authors/{author}/posts/{post}',
+    url: 'https://www.example.com/authors/{author}/posts/{post}',
     params: {
         author: 'bjnstnkvc',
         post: 2
