@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BJNSTNKVC/ajax-request-helper.git"
+    "url": "git+https://github.com/BJNSTNKVC/js-ajax-request-helper.git"
   },
   "keywords": [
     "ajax",
@@ -21,7 +21,7 @@
   "author": "Bojan Stankovic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BJNSTNKVC/ajax-request-helper/issues"
+    "url": "https://github.com/BJNSTNKVC/js-ajax-request-helper/issues"
   },
-  "homepage": "https://github.com/BJNSTNKVC/ajax-request-helper#readme"
+  "homepage": "https://github.com/BJNSTNKVC/js-ajax-request-helper#readme"
 }

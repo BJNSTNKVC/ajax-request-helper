@@ -79,7 +79,7 @@ An object used to parse and stringify URL parameters:
 
 ```js
 AJAX.get({
-    url: 'authors/{author}/posts/{post}',
+    url: 'https://www.example.com/authors/{author}/posts/{post}',
     params: {
         author: 'bjnstnkvc',
         post: 2
@@ -98,7 +98,7 @@ An object used to parse and stringify URL query strings:
 
 ```js
 AJAX.get({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     query: {
         page: 2
     }
@@ -115,7 +115,7 @@ Sometimes you need to pass a query string as an array, in order to do so, use th
 
 ```js
 AJAX.get({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     query: {
         tag: ['html', 'css'],
         page: 2,
@@ -135,7 +135,7 @@ A boolean value that indicates whether cross-site Access-Control requests should
 
 ```js
 AJAX.get({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     withCredentials: true,
 })
 ````
@@ -145,7 +145,7 @@ In case you would like to add headers to AJAX request, you can pass them via `he
 
 ```js
 AJAX.get({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     headers: {
         'Accept': 'application/json',
     }
@@ -158,7 +158,7 @@ An object containing body of data to be sent in the XHR request.
 
 ```js
 AJAX.post({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     data: {
         title: 'A Post title',
         description: 'A Post description',
@@ -190,7 +190,7 @@ In order to access each state, you can add `states` property to AJAX config via 
 
 ```js
 AJAX.get({
-    url   : 'posts',
+    url   : 'https://www.example.com/posts',
     states: {
         before() {
             // 
@@ -228,7 +228,7 @@ AJAX helper gives you an option to set [config](#config) defaults using the foll
 
 ```js
 AJAX.defaults({
-    url: 'posts',
+    url: 'https://www.example.com/posts',
     withCredentials: true,
     headers: {
         'X-Requested-With': 'XMLHttpRequest',
@@ -247,7 +247,7 @@ In case you need to overwrite previously set default config value, you simply ne
 
 ```js
 AJAX.patch({
-    url: 'posts/2',
+    url: 'https://www.example.com/posts/2',
     withCredentials: false,
     ...
 });
