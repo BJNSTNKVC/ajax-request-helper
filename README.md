@@ -4,20 +4,21 @@ JavaScript AJAX request helper.
 
 ## Installation & setup
 
+### NPM
+
 You can install the package via npm:
 
     npm install @bjnstnkvc/ajax
 
-## Usage
+### CDN
 
-Once the package has been installed, you can import it
-using [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) declaration:
+You can install the package via jsDelivr CDN:
 
-```js
-import AJAX from '@bjnstnkvc/ajax'
+```html
+<script src="https://cdn.jsdelivr.net/npm/@bjnstnkvc/ajax/lib/AJAX.min.js"></script>
 ```
 
-## Methods
+## Usage
 
 Once imported, you can make an AJAX request using the following methods:
 
